@@ -533,3 +533,17 @@ textarea.error {
   opacity: 1;
   transform: translateY(0);
 }
+/* LinkedIn Link */
+.hero-text a {
+  display: inline-block;
+  margin-top: 12px;
+  font-weight: 700;
+  color: var(--accent);
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.hero-text a:hover {
+  opacity: 0.7;
+  text-decoration: underline;
+}

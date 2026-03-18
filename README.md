@@ -123,4 +123,4 @@ All AI-generated suggestions were:
 - Tested in the browser to verify correctness and behavior
 - Documented transparently according to assignment requirements
 ## For more details, see:
-docs/ai-usage-report.md
+[AI Usage Report](docs/ai-usage-report.md)

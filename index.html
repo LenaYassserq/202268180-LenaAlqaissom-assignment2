@@ -12,6 +12,28 @@
   </head>
 
   <body>
+    <!-- Greeting (Dynamic Feature) -->
+    <div class="greeting-bar">
+      <div class="container">
+        <div id="greetingForm">
+          <input
+            type="text"
+            id="userName"
+            placeholder="Enter your name"
+          />
+          <button type="button" id="saveName">Save</button>
+          <button type="button" id="clearName" class="btn-outline">
+            Clear
+          </button>
+        </div>
+
+        <div id="greetingMessage" hidden>
+          <p>Welcome, <span id="displayName"></span> 👋</p>
+          <button type="button" id="editName">Edit</button>
+        </div>
+      </div>
+    </div>
+
     <!-- Header -->
     <header class="site-header">
       <div class="container header-inner">
@@ -32,26 +54,6 @@
       <section id="top" class="hero">
         <div class="container hero-inner">
           <div class="hero-text">
-            <!-- Greeting (Dynamic Feature) -->
-            <div class="greeting-bar">
-              <div id="greetingForm">
-                <input
-                  type="text"
-                  id="userName"
-                  placeholder="Enter your name"
-                />
-                <button type="button" id="saveName">Save</button>
-                <button type="button" id="clearName" class="btn-outline">
-                  Clear
-                </button>
-              </div>
-
-              <div id="greetingMessage" hidden>
-                <p>Welcome, <span id="displayName"></span> 👋</p>
-                <button type="button" id="editName">Edit</button>
-              </div>
-            </div>
-
             <h1>Lena</h1>
             <p class="hero-subtitle">Software Engineering Student</p>
           </div>

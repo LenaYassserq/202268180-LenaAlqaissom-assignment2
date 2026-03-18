@@ -21,6 +21,7 @@
 
         <nav class="nav">
           <a href="#about">About</a>
+          <a href="#skills">Skills</a>
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
         </nav>
@@ -30,7 +31,6 @@
     <!-- Greeting (Dynamic Feature) -->
     <section class="greeting-bar">
       <div class="container">
-
         <div id="greetingForm">
           <input
             type="text"
@@ -44,13 +44,11 @@
           <p>Welcome, <span id="displayName"></span> 👋</p>
           <button id="editName">Edit</button>
         </div>
-
       </div>
     </section>
 
     <!-- Main -->
     <main>
-
       <!-- Hero -->
       <section id="top" class="hero">
         <div class="container">
@@ -65,19 +63,38 @@
           <h2>About</h2>
 
           <p>
-            I am a Software Engineering student at KFUPM. 
-            I am passionate about programming and interested in 
+            I am a Software Engineering student at KFUPM.
+            I am passionate about programming and interested in
             cybersecurity and project management.
           </p>
         </div>
       </section>
 
+      <!-- Skills -->
+      <section id="skills" class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2>Skills</h2>
+          </div>
+
+          <div class="skills-grid">
+            <div class="skill">Java</div>
+            <div class="skill">Python</div>
+            <div class="skill">SQL</div>
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Git</div>
+            <div class="skill">JavaFX</div>
+          </div>
+        </div>
+      </section>
+
       <!-- Projects -->
-       <section id="projects" class="section">
+      <section id="projects" class="section">
         <div class="container">
           <div class="section-head">
             <h2>Projects</h2>
-            
           </div>
 
           <div class="grid">
@@ -91,7 +108,6 @@
                 <span class="tag">SQL</span>
                 <span class="tag">Relational DB</span>
               </div>
-             
             </article>
 
             <article class="card project">
@@ -101,10 +117,8 @@
                 Web application that visualizes optimal routes across campus based on a student’s daily class schedule.
               </p>
               <div class="tags" aria-label="Tech used">
-                
                 <span class="tag">JavaFX</span>
               </div>
-             
             </article>
 
             <article class="card project">
@@ -117,7 +131,6 @@
                 <span class="tag">Python</span>
                 <span class="tag">Machine Learning</span>
               </div>
-            
             </article>
           </div>
         </div>
@@ -129,7 +142,6 @@
           <h2>Contact</h2>
 
           <form id="contactForm">
-
             <input id="name" type="text" placeholder="Name" />
             <small id="nameError"></small>
 
@@ -142,11 +154,9 @@
             <button type="submit">Send</button>
 
             <p id="formStatus"></p>
-
           </form>
         </div>
       </section>
-
     </main>
 
     <!-- Footer -->

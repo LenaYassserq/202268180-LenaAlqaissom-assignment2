@@ -446,3 +446,80 @@ small {
     font-size: 1.3rem;
   }
 }
+/* Added transitions and JS-linked states */
+.greeting-bar {
+  opacity: 0;
+  transform: translateY(-12px);
+  transition: opacity 0.35s ease, transform 0.35s ease;
+}
+
+.greeting-bar.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+#greetingForm,
+#greetingMessage {
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.fade-out {
+  opacity: 0;
+  transform: translateY(-8px);
+}
+
+.nav a.active {
+  color: var(--text);
+}
+
+.nav a.active::after {
+  width: 100%;
+}
+
+/* Form error state */
+input.error,
+textarea.error {
+  border-color: #ff6b6b;
+}
+
+/* Status message */
+#formStatus {
+  transition: opacity 0.3s ease;
+}
+
+#formStatus.success {
+  color: green;
+}
+
+#formStatus.error {
+  color: #d9534f;
+}
+
+/* Skills animation */
+.skill {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease, background 0.25s ease;
+}
+
+.skill.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Projects animation */
+.project {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.project.show {
+  opacity: 1;
+  transform: translateY(0);
+}

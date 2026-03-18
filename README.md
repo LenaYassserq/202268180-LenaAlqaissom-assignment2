@@ -112,15 +112,15 @@ This improves visual engagement and gives the website a more polished feel.
 ## AI Usage Summary
 This project includes AI-assisted development to support debugging, layout refinement, JavaScript review, and documentation writing.
 ### Key AI Contributions
-Helped fix the alignment of the greeting form
-Supported refinement of JavaScript structure and behavior
-Assisted with improving form validation logic and UI feedback
-Helped draft project documentation in a clearer format
+- Helped fix the alignment of the greeting form
+- Supported refinement of JavaScript structure and behavior
+- Assisted with improving form validation logic and UI feedback
+- Helped draft project documentation in a clearer format
 ### Responsible AI Practices
 All AI-generated suggestions were:
-Reviewed and understood before use
-Edited manually to fit my project structure
-Tested in the browser to verify correctness and behavior
-Documented transparently according to assignment requirements
+- Reviewed and understood before use
+- Edited manually to fit my project structure
+- Tested in the browser to verify correctness and behavior
+- Documented transparently according to assignment requirements
 For more details, see:
 docs/ai-usage-report.md
